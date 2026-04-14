@@ -1,23 +1,18 @@
-Student Management API (FastAPI)
+# Student Management API (FastAPI)
 
-🚀 Features
+## Features
+- Create student
+- Get all students
+- Update student
+- Delete student
 
-- Add Student
-- Get Students
-- Update Student
-- Delete Student
-
-🛠️ Tech Stack
-
+## Tech Stack
 - FastAPI
-- PostgreSQL
 - SQLAlchemy
+- SQLite / PostgreSQL
 
-▶️ How to Run
+## How to Run
 
+```bash
 venv\Scripts\activate
 python -m uvicorn main:app --reload
-
-📌 API Docs
-
-http://127.0.0.1:8001/docs
